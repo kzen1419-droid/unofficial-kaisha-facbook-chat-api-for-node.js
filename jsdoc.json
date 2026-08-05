@@ -1,0 +1,13 @@
+{
+  "source": {
+    "include": [
+      "index.js",
+      "api",
+      "managers"
+    ]
+  },
+  "opts": {
+    "destination": "docs/jsdoc",
+    "recurse": true
+  }
+}

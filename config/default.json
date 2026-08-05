@@ -1,0 +1,55 @@
+{
+  "prefix": "/",
+  "ownerIds": [],
+  "language": "en",
+  "timezone": "UTC",
+  "logger": {
+    "level": "info",
+    "pretty": true,
+    "maxFiles": 14
+  },
+  "http": {
+    "timeout": 30000,
+    "userAgent": "KaishaFB/1.0.0"
+  },
+  "queue": {
+    "concurrency": 3,
+    "defaultPriority": 5
+  },
+  "cache": {
+    "ttlMs": 300000,
+    "maxEntries": 5000
+  },
+  "connection": {
+    "maxReconnects": 20,
+    "baseDelayMs": 1000
+  },
+  "database": {
+    "backend": "json",
+    "path": "./database/db.json"
+  },
+  "encryption": {
+    "enabled": false,
+    "algorithm": "AES-256-GCM"
+  },
+  "plugins": {
+    "autoLoad": true,
+    "directory": "./plugins"
+  },
+  "scheduler": {
+    "enabled": true,
+    "timezone": "UTC"
+  },
+  "backup": {
+    "schedule": "0 3 * * *",
+    "retainDays": 30,
+    "encrypt": false
+  },
+  "health": {
+    "checkIntervalMs": 30000
+  },
+  "api": {
+    "version": "1.0.0",
+    "developer": "Aldwin Padronia"
+  }
+}

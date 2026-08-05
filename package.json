@@ -1,0 +1,53 @@
+{
+  "name": "kaisha-facebook-chat-api",
+  "version": "1.0.0",
+  "description": "Kaisha Facebook Chat API - Enterprise Grade Messenger Platform SDK",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./api": "./api/index.js",
+    "./helpers": "./helpers/index.js",
+    "./utils": "./utils/index.js",
+    "./events": "./events/index.js",
+    "./config": "./config/default.json"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node index.js",
+    "build": "node build.js",
+    "test": "node --test tests/*.test.js",
+    "lint": "node scripts/lint.js",
+    "docs": "node scripts/generate-docs.js"
+  },
+  "keywords": [
+    "facebook",
+    "messenger",
+    "chat",
+    "api",
+    "bot",
+    "automation",
+    "enterprise",
+    "sdk",
+    "nodejs",
+    "kaisha"
+  ],
+  "author": "Aldwin Padronia",
+  "creator": "Aldwin Padronia",
+  "developer": "Aldwin Padronia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kzen1419-droid/kaisha-facebook-chat-api"
+  },
+  "social": {
+    "github": "https://github.com/kzen1419-droid",
+    "facebook": "https://www.facebook.com/share/14mu8NouLzi/",
+    "instagram": "https://www.instagram.com/kaiz3n_nnn?igsh=MXM5MHN0b2tlbWRkYw=="
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "key": "c_user",
+    "value": "REPLACE",
+    "domain": ".facebook.com",
+    "path": "/",
+    "secure": true
+  }
+]
